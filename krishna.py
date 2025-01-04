@@ -252,7 +252,7 @@ def handle_message(message):
         bot.reply_to(message, "*🚀Attack Selected*", parse_mode='Markdown')
         attack_command(message)
     elif message.text == "💼ResellerShip":
-        bot.send_message(message.chat.id, "*FOR RESSELER SHIP DM :-@ANKIT_MODS_OWNER*", parse_mode='Markdown')
+        bot.send_message(message.chat.id, "*FOR RESSELER SHIP DM :-@KRISHNAVIPOWNER*", parse_mode='Markdown')
     elif message.text == "ℹ️ My Info":
         user_id = message.from_user.id
         user_data = users_collection.find_one({"user_id": user_id})
